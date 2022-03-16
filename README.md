@@ -1,4 +1,4 @@
-# Simple Token Price Ingest
+# Hourly Token Price Ingest
 
 This is my first little `rust` project combining `Diesel ORM` with `SQLite` and `reqwest` to fetch and maintain token prices (last, and 30d historical) fetched from Coingecko. It will upsert duplicate prices.
 
