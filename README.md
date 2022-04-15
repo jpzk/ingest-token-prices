@@ -4,7 +4,7 @@ This is my first little `rust` project combining `Diesel ORM` with `SQLite` and 
 
 ## Requirements
 
-Make sure you have the `rustc` compiler and the `diesel-cli` installed. For diesel-cli run `cargo install diesel_cli`
+Make sure you have the `rustc` compiler and the `diesel-cli` installed. For diesel-cli run `cargo install diesel_cli`. This project only makes use of the sqlite feature therefore you can install it with less dependencies using: `cargo install diesel_cli --no-default-features --features "sqlite"`
 
 ## Setup
 
