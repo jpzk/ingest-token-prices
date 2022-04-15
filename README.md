@@ -2,6 +2,10 @@
 
 This is my first little `rust` project combining `Diesel ORM` with `SQLite` and `reqwest` to fetch and maintain token prices (last, and 30d historical) fetched from Coingecko. It will upsert duplicate prices. And the best thing: **It does not require an API key, kudos to Coingecko. Also it does cross-compile for ARMv7 for Raspberries :)**
 
+## Requirements
+
+Make sure you have the `rustc` compiler and the `diesel-cli` installed. For diesel-cli run `cargo install diesel_cli`
+
 ## Setup
 
 Add token mappings for the symbols you want to ingest via Coingecko in the migration in `migrations/2022-02-24-194229_mapping/up.sql`. Without modifications the file contains:
